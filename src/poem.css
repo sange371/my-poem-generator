@@ -1,7 +1,63 @@
 body{
-    background: rgb(206, 237, 247);
+    background: rgb(253, 195, 243);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+h2{
+    text-align:center;
+    line-height:1.5;
+    font-weight: 310;
+}
 a{
     color: rgb(244, 25, 230);
+    font-size:14px;
+}
+header{
+    margin-bottom:30px;
+}
+form{
+    margin-bottom:30px;
+    display:flex;
+    background: white;
+    padding:20px;
+    border-radius:4px;
+    box-shadow: 0px 1px rgba(216, 205, 243, 0.8);
+
+}
+p{
+    font-size:14px;
+    background-color: white;
+    padding:20px;
+    line-height: 1.5;
+    border-left:2px solid plum;
+    box-shadow: 0px 1px rgba(216, 205, 243, 0.8);
+    
+}
+footer{
+    text-align:center;
+    font-size:13px;
+    margin-top:20px;
+}
+.poem-container{
+    margin:120px auto;
+    max-width: 600px;
+}
+#poem-input{
+    padding:10px 20px;
+    width:430px;
+    font-size:13px;
+    border:2px solid rgb(233, 230, 230);
+    border-radius:4px;
+    color:rgb(233, 230, 230);
+    background: rgb(255, 254, 254);
+    margin-right:8px;
+    
+}
+#poem-button{
+    padding:5px 10px;
+    width:90px;
+    border:1px solid rgb(255, 211, 255);
+    border-radius:6px;
+    color:black;
+    font-size:14px;
+    background: rgb(255, 185, 255);
 }
