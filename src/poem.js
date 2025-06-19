@@ -22,6 +22,8 @@ function poemGenerator(event){
 
     let poemSentence=document.querySelector(".poem-sentence");
     poemSentence.classList.remove("poem-sentence");
+    poemSentence.innerHTML=`<span class="loading"> loading poem about ${poemTopic.value}  <span id="hourglass">  ⌛️</span></span>`;
+
 
     axios.get(apiUrl).then(poemResponse);
 }
