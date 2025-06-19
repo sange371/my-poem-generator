@@ -27,8 +27,8 @@ p{
     font-size:14px;
     background-color: white;
     padding:20px;
-    line-height: 1.5;
-    border-left:2px solid plum;
+    line-height: 0.5;
+    border-left:1.7px solid plum;
     box-shadow: 0px 1px rgba(246, 246, 247, 0.8);
     
 }
