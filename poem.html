@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min/js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/poem.css"/>
     <title>Document</title>
 </head>
@@ -14,16 +16,12 @@
             </h2>
         </header>
         <main>
-            <form>
+            <form id="poem-inputs">
                 <input type="text" placeholder="A topic for your poem..." id="poem-input" autocomplete="off" autofocus required/>
                 <input type="submit" value="Submit" id="poem-button"/>
             </form>
         </main>
-        <p>
-            my poem
-            <br/>
-            my poem
-        </p>
+        <p id="poem-output"></p>
         <footer>
             This coded was coded by
             <a href="https://github.com/sange371" target="_blank">Zusange Mbaleki</a>
