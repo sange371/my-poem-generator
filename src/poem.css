@@ -64,3 +64,17 @@ footer{
 .poem-sentence{
     display:none;
 }
+#hourglass{
+    display:inline-block;
+    animation: rotateHourglass 1s linear infinite;
+}
+@keyframes rotateHourglass{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+        
+    }
+}
+
