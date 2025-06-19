@@ -7,29 +7,32 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <h2>
-            Welcome to my AI Poem Generator..
-        </h2>
-    </header>
-    <main>
-        <form>
-            <input type="text" placeholder="A topic for your poem..." autocomplete="off" autofocus required/>
-            <input type="submit" value="Search"/>
-        </form>
-    </main>
-    <p>
-        my poem
-        <br/>
-        my poem
-    </p>
-    <footer>
-        This coded was coded by
-        <a href="https://github.com/sange371" target="_blank">Zusange Mbaleki</a>
-        and is on 
-        <a href="https://github.com/sange371/my-poem-generator" target="_blank">Github</a>
-        ,Also hosted on
-        <a href="https://app.netlify.com/projects/eloquent-syrniki-2a5fdf/overview" target="_blank">Netlify</a>
-    </footer>
+    <div class="poem-container">
+        <header>
+            <h2>
+                Welcome to my AI Poem Generator..
+            </h2>
+        </header>
+        <main>
+            <form>
+                <input type="text" placeholder="A topic for your poem..." id="poem-input" autocomplete="off" autofocus required/>
+                <input type="submit" value="Submit" id="poem-button"/>
+            </form>
+        </main>
+        <p>
+            my poem
+            <br/>
+            my poem
+        </p>
+        <footer>
+            This coded was coded by
+            <a href="https://github.com/sange371" target="_blank">Zusange Mbaleki</a>
+            and is on 
+            <a href="https://github.com/sange371/my-poem-generator" target="_blank">Github</a>
+            ,Also hosted on
+            <a href="https://app.netlify.com/projects/eloquent-syrniki-2a5fdf/overview" target="_blank">Netlify</a>
+        </footer>
+    </div>
+    <script src="src/poem.js"></script>
 </body>
 </html>
