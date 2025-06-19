@@ -1,6 +1,8 @@
 function poemResponse(response){
     console.log(response.data.answer);
 
+    
+
     new Typewriter("#poem-output",{
         strings:response.data.answer,
         autoStart:true,
@@ -17,6 +19,9 @@ function poemGenerator(event){
     let prompt=`Please write me a poem of 4 lines using basic HTML ,the poem must be about ${poemTopic.value}`;
     let apiKey="abod483e2dfa17bb1244b3fbdft2032b";
     let apiUrl=`https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
+
+    let poemSentence=document.querySelector(".poem-sentence");
+    poemSentence.classList.remove("poem-sentence");
 
     axios.get(apiUrl).then(poemResponse);
 }
